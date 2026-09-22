@@ -1,0 +1,32 @@
+:root {
+  --bg-dark: #0b0f19;
+  --panel-bg: #141c2e;
+  --card-bg: #1a243a;
+  --border-color: #273552;
+  --text-primary: #f1f5f9;
+  --text-muted: #94a3b8;
+  
+  --color-free: #10b981;
+  --color-occupied: #ef4444;
+  --color-reserved: #3b82f6;
+  --color-accent: #f59e0b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
